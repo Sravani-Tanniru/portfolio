@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width,initial-scale-1.0">
+        <title>Personal Porfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/249ff33062.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p><br>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Sravani Tanniru </span><br>from JNTUHUCES</h1>
+                </div>
+            </div>
+        </div>
+<!------------------------about-------------------------->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/portfolio.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quod nihil possimus! Eius recusandae sint voluptatum culpa molestiae debitis, fugiat consectetur velit corporis minus? Omnis deserunt sunt incidunt recusandae qui.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi neque voluptates repellat a mollitia adipisci nihil, recusandae dicta quia! Delectus debitis nobis in aliquid cum perspiciatis veritatis! Distinctio, modi eveniet!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse officiis dolor odit quas culpa aut nostrum dolorum fuga, voluptatibus tenetur ducimus minus, tempore velit ex ad cupiditate blanditiis maxime?
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br> Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>UI/UX Design Traning</li>
+                                <li><span>2023 - October</span><br> C++ internship at CODSOFT</li>
+                                <li><span>2023 - September</span><br>Python internship at Ifosys SpringBoard.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - current</span><br>B-Tech at JNTUHUCES</li>
+                                <li><span>2021</span><br>MPC from NRI junior college</li>
+                                <li><span>2019</span><br>Schooling from Subhodaya E.M high school</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------services------------------------->
+        <div id="services">
+            <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam velit fugit odio culpa quam eaque minima. Excepturi velit culpa odit porro quos recusandae, laborum incidunt facere! Suscipit, molestiae dolorem.
+                        </p>
+                        <a herf="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam velit fugit odio culpa quam eaque minima. Excepturi velit culpa odit porro quos recusandae, laborum incidunt facere! Suscipit, molestiae dolorem.
+                        </p>
+                        <a herf="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam velit fugit odio culpa quam eaque minima. Excepturi velit culpa odit porro quos recusandae, laborum incidunt facere! Suscipit, molestiae dolorem.
+                        </p>
+                        <a herf="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------portfolio-------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/work1.jpeg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects ypu to the talented people around the world.
+                                Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>"
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work2.jpeg">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects ypu to the talented people around the world.
+                                Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>"
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/work3.jpeg">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects ypu to the talented people around the world.
+                                Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>"
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!--------------------Contact------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="img/my-cv.pdf" download class="btn btn2">Downloads CV</a>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your  Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright Sravani <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+    </body>
+</html>
